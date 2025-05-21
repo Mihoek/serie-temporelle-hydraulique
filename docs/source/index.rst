@@ -13,8 +13,6 @@ Ce projet permet d'analyser et de prédire l'efficacité des systèmes hydrauliq
    guide/installation
    guide/premiers_pas
    guide/analyse_donnees
-   guide/visualisation
-   guide/prediction
 
 .. toctree::
    :maxdepth: 2

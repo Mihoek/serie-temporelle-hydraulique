@@ -81,4 +81,3 @@ Si vous rencontrez des erreurs:
 1. Vérifiez que tous les fichiers de données sont bien dans le dossier ``data/raw``
 2. Assurez-vous que toutes les bibliothèques sont installées
 3. Consultez les logs d'erreur dans le dossier ``logs``
-4. Contactez le support technique à: support@hydraulique.com
