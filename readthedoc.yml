@@ -1,9 +1,0 @@
-version: 2
-
-sphinx:
-  builder: html
-
-python:
-  version: 3.13
-  install:
-    - requirements: requirements.txt  # si tu as un fichier requirements, sinon tu peux enlever cette ligne
