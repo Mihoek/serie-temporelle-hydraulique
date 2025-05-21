@@ -32,15 +32,3 @@ Comment Démarrer
 
     python scripts/predict.py
 
-Exemples de Base
---------------
-
-.. code-block:: python
-
-    from hydraulique import load_data, analyze_sensor
-    
-    # Charger les données d'un capteur
-    data = load_data('PS1')
-    
-    # Analyser un capteur
-    analyze_sensor('PS1', cycle_id=0)
