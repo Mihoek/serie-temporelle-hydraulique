@@ -1,34 +1,25 @@
-.. serie-temporelle-hydraulique documentation master file, created by
-   sphinx-quickstart on Wed May 21 17:15:57 2025.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-serie-temporelle-hydraulique documentation
-==========================================
-
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
 Analyse des Séries Temporelles Hydrauliques
 =========================================
 
+Guide complet pour l'analyse prédictive des systèmes hydrauliques
+
+Ce projet permet d'analyser et de prédire l'efficacité des systèmes hydrauliques en utilisant des techniques d'analyse de séries temporelles.
+
 .. toctree::
    :maxdepth: 2
-   :caption: Guide d'Utilisation
+   :caption: Guide Pas à Pas
 
+   guide/introduction
    guide/installation
-   guide/utilisation
-   guide/preprocessing
-   guide/visualization
+   guide/premiers_pas
+   guide/analyse_donnees
+   guide/visualisation
+   guide/prediction
 
 .. toctree::
    :maxdepth: 2
-   :caption: API Reference
+   :caption: Référence Technique
 
-   api/modules
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
+   reference/structure_donnees
+   reference/api
+   reference/modeles
