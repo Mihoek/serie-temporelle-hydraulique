@@ -14,6 +14,5 @@ Composants Principaux:
 
 Objectifs du Projet
 -----------------
-* Analyser l'efficacité du système
-* Prédire les pannes potentielles
-* Optimiser la maintenance
+* Prédire l'efficacité des systèmes hydrauliques
+* Prédire les paramètres de fonctionnement
