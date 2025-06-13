@@ -37,4 +37,4 @@ Objectifs du Projet
 4. Détecter les anomalies potentielles dans les données.
 
 .. note::
-   Une capture vidéo de l’application Streamlit est disponible dans le dépôt GitHub (`docs/source/_static/media/streamlit_demo.mp4`) pour démontrer les fonctionnalités du projet. Consultez la section :ref:`premiers-pas` pour plus d’informations sur l’utilisation de l’application.
+   Une capture vidéo de l’application Streamlit est disponible dans le dépôt GitHub (`Demo`) pour démontrer les fonctionnalités du projet. Consultez la section :ref:`premiers-pas` pour plus d’informations sur l’utilisation de l’application.

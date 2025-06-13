@@ -85,4 +85,4 @@ Si aucune erreur n’apparaît, l’installation est correcte. Sinon, vérifiez 
 - Que Python 3.13+ est utilisé (`python --version`).
 
 .. note::
-   Une capture vidéo de l’application (`streamlit_demo.mp4`) est disponible dans le dépôt GitHub (`docs/source/_static/media/`) pour une démonstration visuelle. Consultez la section :ref:`premiers-pas` pour lancer l’application.
+   Une capture vidéo de l’application (`streamlit_demo.mp4`) est disponible dans le dépôt GitHub (`Demo`) pour une démonstration visuelle. Consultez la section :ref:`premiers-pas` pour lancer l’application.
