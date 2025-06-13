@@ -3,81 +3,113 @@ Premiers Pas
 
 Structure des Données
 -------------------
-Les données sont organisées par type de capteur:
 
-* **PS1-PS6**: Capteurs de Pression (échantillonnage à 100 Hz)
-    * Unité: Bar
+Types de Capteurs
+^^^^^^^^^^^^^^^
+* **PS1-PS6**: Capteurs de Pression
     * Plage normale: 0-10 Bar
-* **FS1-FS2**: Capteurs de Débit (échantillonnage à 10 Hz)
-    * Unité: m³/h
-    * Plage normale: 0-100 m³/h
-* **TS1-TS4**: Capteurs de Température (échantillonnage à 1 Hz)
-    * Unité: °C
+    * Fréquence: 100 Hz
+* **FS1-FS2**: Capteurs de Débit
+    * Plage normale: 0-100 L/min
+    * Fréquence: 10 Hz
+* **TS1-TS4**: Capteurs de Température
     * Plage normale: 20-80°C
-* **VS1**: Capteur de Vibrations (échantillonnage à 1 Hz)
-    * Unité: mm/s
-    * Plage normale: 0-10 mm/s
+    * Fréquence: 1 Hz
 
-Chemin d'Accès aux Données
-----------------------
-Avant de commencer, vous devez télécharger les données:
+Comment Utiliser l'Application
+---------------------------
 
-1. Accédez aux liens suivants:
-    * `Données brutes (format txt) <https://drive.google.com/drive/folders/1D6pebeI1JvbhwtHqNgVoNZM2hLTcaI9k?usp=sharing>`_
-    * `Données traitées (format csv) <https://drive.google.com/drive/folders/1ZtwsmsefogTsO0_kr_PFlmX0hW0a6sMa?usp=drive_link>`_
+1. Lancer l'Application Streamlit
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Dans le terminal::
 
-2. Téléchargez tous les fichiers
-3. Placez les fichiers téléchargés dans le dossier ``data/raw`` de votre projet
+    streamlit run app.py
 
-Prérequis
----------
-Avant de commencer, assurez-vous d'avoir:
+2. Utiliser l'Interface
+^^^^^^^^^^^^^^^^^^^
+L'interface propose 4 sections:
 
-1. Python 3.8 ou supérieur installé sur votre ordinateur
-2. Les bibliothèques nécessaires installées. Pour cela, ouvrez un terminal et tapez::
+a. **Tableau de Bord**
+    * Vue d'ensemble des données
+    * Graphiques de tendance
+    * Corrélations entre capteurs
 
-    pip install -r requirements.txt
+b. **Chatbot**
+    * Assistant conversationnel
+    * Posez des questions en langage naturel
+    * Exemples: "Prédire SE" ou "Optimiser pour SE 95"
 
-Comment Démarrer
---------------
+c. **Prédiction SE**
+    * Entrez les valeurs des capteurs
+    * Obtenez une prédiction d'efficacité
+    * Comparez les résultats LSTM et GRU
 
-1. **Préparation des données**:
-    
-    Ouvrez un terminal dans le dossier du projet et tapez::
-
-        python scripts/prepare_data.py
-
-    Cette étape va:
-    * Convertir les données brutes en format CSV
-    * Nettoyer les données aberrantes
-    * Créer des fichiers prêts à l'analyse
-
-2. **Visualisation des analyses**:
-
-    Dans le même terminal, tapez::
-
-        python scripts/visualize.py
-
-    Cela va générer:
-    * Des graphiques de tendance pour chaque capteur
-    * Des corrélations entre les différentes mesures
-    * Les graphiques seront sauvegardés dans le dossier ``results/figures``
-
-3. **Lancement des prédictions**:
-
-    Toujours dans le terminal::
-
-        python scripts/predict.py
-
-    Cette commande va:
-    * Analyser les tendances historiques
-    * Générer des prédictions pour les prochaines 24h
-    * Sauvegarder les résultats dans ``results/predictions``
+d. **Prédiction Inverse**
+    * Définissez une efficacité cible
+    * Obtenez les paramètres recommandés
 
 En Cas de Problème
 ----------------
-Si vous rencontrez des erreurs:
+1. Vérifiez que l'environnement virtuel est activé
+2. Assurez-vous que tous les fichiers de données sont bien dans le dossier ``data/raw``
+3. Assurez-vous que toutes les bibliothèques sont installées
+4. Consultez les logs d'erreur dans le dossier ``logs``
 
-1. Vérifiez que tous les fichiers de données sont bien dans le dossier ``data/raw``
-2. Assurez-vous que toutes les bibliothèques sont installées
-3. Consultez les logs d'erreur dans le dossier ``logs``
+Accès aux Données et Modèles
+===========================
+
+Structure des Données sur Google Drive
+----------------------------------
+
+Les fichiers sont organisés comme suit:
+
+📁 Projet_time_series/
+├── 📁 Models/          # Modèles entraînés LSTM et GRU
+├── 📄 Data_txt/        # Données brutes au format TXT
+├── 📄 Data_long/       # Données prétraitées format long
+└── 📄 Data_csv/        # Données traitées au format CSV
+
+Comment Accéder aux Données
+------------------------
+
+1. **Données Brutes** (Data_txt):
+   * Format: Fichiers TXT
+   * Dernière mise à jour: 21 mai 2025
+   * Contient les mesures brutes des capteurs
+
+2. **Données Longues** (Data_long):
+   * Format: Format long pour analyse temporelle
+   * Dernière mise à jour: 4 avril 2025
+   * Optimisé pour l'analyse de séries temporelles
+
+3. **Données CSV** (Data_csv):
+   * Format: CSV pour faciliter l'importation
+   * Dernière mise à jour: 3 avril 2025
+   * Format recommandé pour débuter
+
+4. **Modèles** (Models):
+   * Dernière mise à jour: Aujourd'hui à 1:16 PM
+   * Contient les modèles LSTM et GRU entraînés
+
+Utilisation des Données
+--------------------
+
+Pour charger les données::
+
+    import pandas as pd
+    
+    # Charger les données CSV
+    data = pd.read_csv('chemin/vers/Data_csv/nom_fichier.csv')
+    
+    # Pour les données au format long
+    data_long = pd.read_csv('chemin/vers/Data_long/nom_fichier.csv')
+
+Chargement des Modèles
+-------------------
+
+Pour utiliser les modèles pré-entraînés::
+
+    from tensorflow.keras.models import load_model
+    
+    # Charger le modèle LSTM
+    model = load_model('chemin/vers/Models/model_lstm.h5')
