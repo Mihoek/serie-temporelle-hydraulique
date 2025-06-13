@@ -1,4 +1,3 @@
-
 import os
 import sys
 sys.path.insert(0, os.path.abspath('../..'))
@@ -20,12 +19,4 @@ exclude_patterns = []
 
 language = 'fr'
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static', '_static/media']  
-
-# Configuration pour les fichiers statiques
-html_extra_path = ['_static/media'] 
-html_context = {
-    'css_files': [
-        '_static/css/custom.css',  
-    ],
-}
+html_static_path = ['_static']
