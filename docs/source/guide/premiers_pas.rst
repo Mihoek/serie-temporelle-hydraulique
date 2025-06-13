@@ -1,11 +1,11 @@
 Premiers Pas
-============
+===========
 
 Structure des Données
---------------------
+-------------------
 
 Types de Capteurs
-^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 * **PS1-PS6**: Capteurs de Pression
     * Plage normale: 0-10 Bar
     * Fréquence: 100 Hz
@@ -49,7 +49,7 @@ d. **Prédiction Inverse**
     * Obtenez les paramètres recommandés
 
 En Cas de Problème
------------------
+----------------
 1. Vérifiez que l'environnement virtuel est activé
 2. Assurez-vous que tous les fichiers de données sont bien dans le dossier ``data/raw``
 3. Assurez-vous que toutes les bibliothèques sont installées

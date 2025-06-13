@@ -47,13 +47,6 @@ b. Créez les dossiers nécessaires::
 
 c. Placez les fichiers téléchargés dans ``data/raw``
 
-5. Configuration de la Vidéo de Démonstration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Pour inclure la vidéo de démonstration::
-
-    mkdir -p docs/source/_static/media
-    cp chemin/vers/votre/video.mp4 docs/source/_static/media/streamlit_demo.mp4
-
 Vérification de l'Installation
 ----------------------------
 Pour vérifier l'installation::

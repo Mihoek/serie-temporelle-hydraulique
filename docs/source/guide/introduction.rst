@@ -6,7 +6,7 @@ Qu'est-ce qu'un Système Hydraulique?
 Un système hydraulique utilise un fluide sous pression pour transmettre de l'énergie et réaliser des travaux mécaniques. Ces systèmes sont essentiels dans de nombreuses applications industrielles.
 
 Composants Principaux
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 1. **Pompe Hydraulique**: Fournit un débit constant de fluide sous pression
 2. **Cylindre/Moteur Hydraulique**: Convertit l'énergie hydraulique en mouvement mécanique
 3. **Vannes**: Contrôlent la direction et la pression du fluide
@@ -14,7 +14,7 @@ Composants Principaux
 5. **Filtre**: Maintient la propreté du fluide
 
 Description des Capteurs
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
 | **Capteur**  | **Description** | **Fréquence** | **Points/Cycle** |
 |--------------|-----------------|---------------|------------------|
 | **PS1-PS6**  | Pression (Bar) | 100 Hz | 6000 |
