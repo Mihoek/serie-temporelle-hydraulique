@@ -6,7 +6,7 @@ Prérequis Techniques
 1. **Python 3.13+** : Téléchargeable sur `python.org <https://www.python.org/downloads/>`_
 2. **Git** : Téléchargeable sur `git-scm.com <https://git-scm.com/downloads>`_
 3. **VS Code** (recommandé) : Téléchargeable sur `code.visualstudio.com <https://code.visualstudio.com/download>`_
-4.**Driver Google** : Pour accéder aux données, vous aurez besoin d'un compte Google pour télécharger les fichiers depuis Google Drive et du lien :'<https://drive.google.com/drive/folders/11-p5ThFWkRX94IVfi0oKV_uFmQaci4df?usp=drive_link>'_.
+4. **Driver Google** : Pour accéder aux données, vous aurez besoin d'un compte Google pour télécharger les fichiers depuis Google Drive et du lien :'<https://drive.google.com/drive/folders/11-p5ThFWkRX94IVfi0oKV_uFmQaci4df?usp=drive_link>'_
 Installation Pas à Pas
 ---------------------
 
