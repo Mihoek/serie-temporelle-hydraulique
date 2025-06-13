@@ -93,7 +93,7 @@ Guide complet pour l'analyse prédictive des systèmes hydrauliques.
       * `Données brutes (TXT) <https://drive.google.com/drive/folders/1D6pebeI1JvbhwtHqNgVoNZM2hLTcaI9k?usp=sharing>`_
       * `Données traitées (CSV) <https://drive.google.com/drive/folders/1ZtwsmsefogTsO0_kr_PFlmX0hW0a6sMa?usp=drive_link>`_
       * `Données traitées (CSV_Long) <https://drive.google.com/drive/folders/1KiaSdowspB8fJP9vV1ujai_RWeYAlkQg?usp=drive_link>`_
-   
+      * `Models  <https://drive.google.com/drive/folders/1VvNrvtrgD9h90Wiz48nWDyBeu9Ri2c6i?usp=sharing>`_
    b. Créez les dossiers nécessaires::
    
        mkdir -p data/raw data/processed

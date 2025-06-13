@@ -30,8 +30,3 @@ Objectifs du Projet
 1. Analyser les données des capteurs hydrauliques
 2. Prédire l'efficacité du système (SE)
 3. Optimiser les paramètres pour une meilleure performance
-
-
-Démonstration de l'Application
------------------------------
-Une capture vidéo de l'application Streamlit illustre les fonctionnalités du projet, incluant le tableau de bord, les prédictions d'efficacité, et l'interface du chatbot. Consultez la section :ref:`demonstration-video` dans les "Premiers Pas" pour visionner la vidéo.
