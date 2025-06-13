@@ -112,4 +112,4 @@ Si vous rencontrez des problèmes, vérifiez les points suivants :
    - Testez l’importation : `python -c "import pandas, numpy, tensorflow, streamlit"`.
 
 .. note::
-   Une capture vidéo de l’application (`streamlit_demo.mp4`) est disponible dans le dépôt GitHub (`Demo`) pour illustrer son utilisation. Lancez l’application avec `streamlit run app.py` pour explorer les fonctionnalités décrites.
+    Une capture vidéo de l’application (`streamlit_demo.mp4`) est disponible dans le dépôt GitHub (`Demo`) pour illustrer son utilisation. Lancez l’application avec `streamlit run app.py` pour explorer les fonctionnalités décrites.
