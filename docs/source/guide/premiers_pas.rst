@@ -116,21 +116,28 @@ Pour utiliser les modèles pré-entraînés::
 Démonstration Vidéo
 ------------------
 
-.. _demonstration-video:
-
-Une capture vidéo de l'application Streamlit est disponible pour démontrer son utilisation. Elle montre:
-
-1. Comment naviguer dans le tableau de bord
-2. Comment effectuer une prédiction d'efficacité (SE)
-3. Comment utiliser le chatbot pour poser des questions
-4. Comment interpréter les résultats de prédiction inverse
-
 .. raw:: html
 
-   <video width="80%" controls>
-      <source src="_static/media/streamlit_demo.mp4" type="video/mp4">
-      Votre navigateur ne prend pas en charge la lecture de vidéos.
-   </video>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <video controls width="100%">
+            <source src="../_static/media/demonstration-video.webm" type="video/webm">
+            Votre navigateur ne prend pas en charge la lecture de vidéos.
+        </video>
+    </div>
 
-.. note::
-   Si la vidéo ne s'affiche pas, vérifiez que le fichier ``streamlit_demo.mp4`` est bien présent dans ``docs/source/_static/media/``. Vous pouvez également visionner la vidéo directement dans l'application Streamlit en lançant ``streamlit run app.py``.
+La vidéo ci-dessus démontre:
+
+1. **Démarrage**
+   * Installation de l'environnement
+   * Chargement des données
+   * Lancement de l'application
+
+2. **Fonctionnalités**
+   * Navigation dans l'interface
+   * Utilisation des modèles de prédiction
+   * Visualisation des résultats
+
+3. **Analyse**
+   * Interprétation des graphiques
+   * Utilisation des filtres
+   * Export des résultats
