@@ -1,11 +1,11 @@
 Premiers Pas
-===========
+============
 
 Structure des Données
--------------------
+--------------------
 
 Types de Capteurs
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 * **PS1-PS6**: Capteurs de Pression
     * Plage normale: 0-10 Bar
     * Fréquence: 100 Hz
@@ -17,16 +17,16 @@ Types de Capteurs
     * Fréquence: 1 Hz
 
 Comment Utiliser l'Application
----------------------------
+----------------------------
 
 1. Lancer l'Application Streamlit
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Dans le terminal::
 
     streamlit run app.py
 
 2. Utiliser l'Interface
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^
 L'interface propose 4 sections:
 
 a. **Tableau de Bord**
@@ -49,17 +49,17 @@ d. **Prédiction Inverse**
     * Obtenez les paramètres recommandés
 
 En Cas de Problème
-----------------
+-----------------
 1. Vérifiez que l'environnement virtuel est activé
 2. Assurez-vous que tous les fichiers de données sont bien dans le dossier ``data/raw``
 3. Assurez-vous que toutes les bibliothèques sont installées
 4. Consultez les logs d'erreur dans le dossier ``logs``
 
 Accès aux Données et Modèles
-===========================
+============================
 
 Structure des Données sur Google Drive
-----------------------------------
+-------------------------------------
 
 Les fichiers sont organisés comme suit:
 
@@ -70,7 +70,7 @@ Les fichiers sont organisés comme suit:
 └── 📄 Data_csv/        # Données traitées au format CSV
 
 Comment Accéder aux Données
-------------------------
+--------------------------
 
 1. **Données Brutes** (Data_txt):
    * Format: Fichiers TXT
@@ -88,11 +88,10 @@ Comment Accéder aux Données
    * Format recommandé pour débuter
 
 4. **Modèles** (Models):
-   * Dernière mise à jour: Aujourd'hui à 1:16 PM
    * Contient les modèles LSTM et GRU entraînés
 
 Utilisation des Données
---------------------
+---------------------
 
 Pour charger les données::
 
@@ -105,7 +104,7 @@ Pour charger les données::
     data_long = pd.read_csv('chemin/vers/Data_long/nom_fichier.csv')
 
 Chargement des Modèles
--------------------
+---------------------
 
 Pour utiliser les modèles pré-entraînés::
 
@@ -113,3 +112,25 @@ Pour utiliser les modèles pré-entraînés::
     
     # Charger le modèle LSTM
     model = load_model('chemin/vers/Models/model_lstm.h5')
+
+Démonstration Vidéo
+------------------
+
+.. _demonstration-video:
+
+Une capture vidéo de l'application Streamlit est disponible pour démontrer son utilisation. Elle montre:
+
+1. Comment naviguer dans le tableau de bord
+2. Comment effectuer une prédiction d'efficacité (SE)
+3. Comment utiliser le chatbot pour poser des questions
+4. Comment interpréter les résultats de prédiction inverse
+
+.. raw:: html
+
+   <video width="80%" controls>
+      <source src="_static/media/streamlit_demo.mp4" type="video/mp4">
+      Votre navigateur ne prend pas en charge la lecture de vidéos.
+   </video>
+
+.. note::
+   Si la vidéo ne s'affiche pas, vérifiez que le fichier ``streamlit_demo.mp4`` est bien présent dans ``docs/source/_static/media/``. Vous pouvez également visionner la vidéo directement dans l'application Streamlit en lançant ``streamlit run app.py``.
