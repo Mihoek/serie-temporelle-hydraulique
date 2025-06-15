@@ -1,7 +1,7 @@
 Analyse Prédictive des Systèmes Hydrauliques
 ===========================================
 
-Ce projet, réalisé dans le cadre de la filière **Génie Mécanique et Systèmes Automatisés** à l'**Université de Technologie de Compiègne (UTC)**, propose une analyse avancée des séries temporelles pour surveiller et prédire l’efficacité des systèmes hydrauliques à l’aide de modèles d’apprentissage automatique (LSTM, GRU, MLP). Une application interactive Streamlit permet de visualiser les données, prédire l’efficacité système (SE), et optimiser les paramètres des capteurs.
+Ce projet a été développé par **Faten Saif Eddine** et **Ma Bilal** dans le cadre de la filière **Intelligence Artificielle et technologie de donnes** à l'**ENSAM**, sous la supervision du **Prof. Tawfik Masrour**. Il vise à analyser et prédire l’efficacité des systèmes hydrauliques à l’aide de modèles d’apprentissage automatique.
 
 **Équipe du projet** :
 - **Jean Dupont** (Étudiant)
