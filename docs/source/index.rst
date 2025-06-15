@@ -4,9 +4,9 @@ Analyse Prédictive des Systèmes Hydrauliques
 Ce projet a été développé par **Faten Saif Eddine** et **Ma Bilal** dans le cadre de la filière **Intelligence Artificielle et technologie de donnes** à l'**ENSAM**, sous la supervision du **Prof. Tawfik Masrour**. Il vise à analyser et prédire l’efficacité des systèmes hydrauliques à l’aide de modèles d’apprentissage automatique.
 
 **Équipe du projet** :
-- **Jean Dupont** (Étudiant)
-- **Marie Martin** (Binôme)
-- **Encadrant** : Prof. Alain Dubois
+- **Faten Saif Eddine** (Étudiant)
+- **Ma Bilal** (Étudiant)
+- **Encadrant** :Prof. Tawfik Masrour 
 
 Une démonstration de l’application est disponible dans la vidéo :download:`streamlit_demo.webm <_static/streamlit_demo.webm>` (téléchargeable depuis le dépôt GitHub ou consultable dans la section :ref:`premiers-pas`).
 
