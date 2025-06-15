@@ -1,6 +1,8 @@
 Introduction
 ============
 
+Ce projet a été développé par **Faten Saif Eddine** et **Ma Bilal** dans le cadre de la filière **Intelligence Artificielle et technologie de donnes** à l'**ENSAM**, sous la supervision du **Prof. Tawfik Masrour**. Il vise à analyser et prédire l’efficacité des systèmes hydrauliques à l’aide de modèles d’apprentissage automatique.
+
 Qu’est-ce qu’un Système Hydraulique ?
 ------------------------------------
 Un système hydraulique utilise un fluide sous pression pour transmettre de l’énergie et effectuer des travaux mécaniques. Ces systèmes sont essentiels dans de nombreuses applications industrielles, telles que les machines-outils, les équipements de construction, et les systèmes aéronautiques.
@@ -37,4 +39,4 @@ Objectifs du Projet
 4. Détecter les anomalies potentielles dans les données.
 
 .. note::
-   Une capture vidéo de l’application Streamlit est disponible dans le dépôt GitHub (`Demo`) pour démontrer les fonctionnalités du projet. Consultez la section :ref:`premiers-pas` pour plus d’informations sur l’utilisation de l’application.
+   Une démonstration visuelle de l’application Streamlit est disponible dans la vidéo :download:`streamlit_demo.webm <_static/streamlit_demo.webm>`. Consultez la section :ref:`premiers-pas` pour lancer l’application et explorer ses fonctionnalités.

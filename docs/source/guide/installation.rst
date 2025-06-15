@@ -54,12 +54,14 @@ Installez les bibliothèques requises avec :
 4. Téléchargement des Données et Modèles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 a. Accédez aux dossiers Google Drive suivants pour télécharger les fichiers nécessaires :
+- `Drive complet  <https://drive.google.com/drive/folders/11-p5ThFWkRX94IVfi0oKV_uFmQaci4df?usp=drive_link>`_
 
+    
    - `Données brutes (TXT) <https://drive.google.com/drive/folders/1D6pebeI1JvbhwtHqNgVoNZM2hLTcaI9k?usp=sharing>`_
    - `Données traitées (CSV) <https://drive.google.com/drive/folders/1ZtwsmsefogTsO0_kr_PFlmX0hW0a6sMa?usp=drive_link>`_
    - `Données traitées (CSV Long) <https://drive.google.com/drive/folders/1KiaSdowspB8fJP9vV1ujai_RWeYAlkQg?usp=drive_link>`_
-   - `Modèles entraînés (LSTM, GRU, MLP) <https://drive.google.com/drive/folders/1VvNrvtrgD9h90Wiz48nWDyBeu9Ri2c6i?usp=sharing>`_
-
+   - `Modèles entraînés (LSTM, GRU, MLP)(regression) <https://drive.google.com/drive/folders/1VvNrvtrgD9h90Wiz48nWDyBeu9Ri2c6i?usp=sharing>`_
+   - `Modèles entraînés (LSTM, GRU, MLP)(Etude en fonction du temps) <https://drive.google.com/drive/folders/1VvNrvtrgD9h90Wiz48nWDyBeu9Ri2c6i?usp=sharing>`_
 b. Créez les dossiers nécessaires dans le répertoire du projet :
 
 ::
@@ -85,4 +87,4 @@ Si aucune erreur n’apparaît, l’installation est correcte. Sinon, vérifiez 
 - Que Python 3.13+ est utilisé (`python --version`).
 
 .. note::
-   Une capture vidéo de l’application (`streamlit_demo.mp4`) est disponible dans le dépôt GitHub (`Demo`) pour une démonstration visuelle. Consultez la section :ref:`premiers-pas` pour lancer l’application.
+   Une démonstration de l’application est disponible dans la vidéo :download:`streamlit_demo.webm <_static/streamlit_demo.webm>`, située dans le dossier `Demo` du dépôt GitHub. Consultez la section :ref:`premiers-pas` pour lancer l’application.

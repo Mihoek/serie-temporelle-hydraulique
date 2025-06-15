@@ -3,7 +3,7 @@
 Premiers Pas
 ============
 
-Ce guide vous aide à démarrer avec l’application d’analyse prédictive des systèmes hydrauliques. Suivez ces étapes pour accéder aux données, lancer l’application Streamlit, et explorer ses fonctionnalités.
+Ce guide vous aide à démarrer avec l’application d’analyse prédictive des systèmes hydrauliques, développée dans le cadre de la filière **Génie Mécanique et Systèmes Automatisés** à l’**Université de Technologie de Compiègne (UTC)**. Suivez ces étapes pour accéder aux données, lancer l’application Streamlit, et explorer ses fonctionnalités.
 
 Accès aux Données et Modèles
 ----------------------------
@@ -16,7 +16,7 @@ Les fichiers sont organisés dans les dossiers suivants sur Google Drive :
 - **Data_txt/** : Données brutes au format TXT.
 - **Data_long/** : Données prétraitées au format CSV long.
 - **Data_csv/** : Données traitées au format CSV.
-
+-**Data_processed/** : Données traitées au format CSV et CSV Long.
 Pour accéder aux fichiers :
 1. Consultez les liens fournis dans :ref:`installation`.
 2. Téléchargez les fichiers et placez-les dans :
@@ -64,7 +64,7 @@ L’application s’ouvrira dans votre navigateur par défaut (généralement à
 
 2. Explorer l’Interface
 ~~~~~~~~~~~~~~~~~~~~~~~
-L’application propose quatre sections principales :
+L’application propose plusieurs sections principales :
 
 a. **Tableau de Bord**
    - Vue d’ensemble des données des capteurs.
@@ -112,4 +112,4 @@ Si vous rencontrez des problèmes, vérifiez les points suivants :
    - Testez l’importation : `python -c "import pandas, numpy, tensorflow, streamlit"`.
 
 .. note::
-    Une capture vidéo de l’application (`streamlit_demo.mp4`) est disponible dans le dépôt GitHub (`Demo`) pour illustrer son utilisation. Lancez l’application avec `streamlit run app.py` pour explorer les fonctionnalités décrites.
+   Une démonstration complète de l’application est disponible dans la vidéo :download:`streamlit_demo.webm <_static/streamlit_demo.webm>`, située dans le dossier `Demo` du dépôt GitHub. Lancez l’application avec `streamlit run app.py` pour explorer les fonctionnalités décrites.
