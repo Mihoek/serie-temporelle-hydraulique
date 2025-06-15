@@ -16,7 +16,7 @@ Prédiction de l'efficacité (SE) : Utilisation de modèles LSTM et GRU pour pr�
 Prédiction inverse : Optimisation des valeurs des capteurs pour atteindre une efficacité cible.
 Tableau de bord interactif : Visualisation des tendances et corrélations des capteurs via Streamlit.
 Chatbot NLP : Interface conversationnelle pour interagir avec l'application en langage naturel.
-Documentation complète : Guide détaillé hébergé sur ReadTheDocs"https://serie-temporelle-hydraulique.readthedocs.io/en/latest/guide/premiers_pas.html".
+Documentation complète : Guide détaillé hébergé sur ReadTheDocs"https://serie-temporelle-hydraulique.readthedocs.io/en/latest/".
 
 Prérequis
 
