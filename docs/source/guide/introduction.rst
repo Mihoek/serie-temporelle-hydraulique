@@ -19,17 +19,43 @@ Description des Capteurs
 ~~~~~~~~~~~~~~~~~~~~~~~
 Les capteurs suivants sont utilisés pour surveiller le système :
 
-+----------------+-------------------------+---------------+------------------+
-| **Capteur**    | **Description**         | **Fréquence** | **Points/Cycle** |
-+----------------+-------------------------+---------------+------------------+
-| **PS1-PS6**    | Pression (Bar)          | 100 Hz        | 6000             |
-| **EPS1**       | Puissance pompe (kW)    | 100 Hz        | 6000             |
-| **FS1-FS2**    | Débit (L/min)           | 10 Hz         | 600              |
-| **TS1-TS4**    | Température (°C)        | 1 Hz          | 60               |
-| **VS1**        | Vibrations (mm/s)       | 1 Hz          | 60               |
-| **CE**         | Efficacité thermique (%)| 1 Hz          | 60               |
-| **SE**         | Rendement global (%)    | 1 Hz          | 60               |
-+----------------+-------------------------+---------------+------------------+
+.. list-table:: Description des Capteurs du Système
+   :header-rows: 1
+   :widths: 20 30 25 25
+   :class: capteurs-table
+
+   * - Capteur
+     - Description
+     - Fréquence
+     - Points/Cycle
+   * - PS1-PS6
+     - Pression (Bar)
+     - 100 Hz
+     - 6000
+   * - EPS1
+     - Puissance pompe (kW)
+     - 100 Hz
+     - 6000
+   * - FS1-FS2
+     - Débit (L/min)
+     - 10 Hz
+     - 600
+   * - TS1-TS4
+     - Température (°C)
+     - 1 Hz
+     - 60
+   * - VS1
+     - Vibrations (mm/s)
+     - 1 Hz
+     - 60
+   * - CE
+     - Efficacité thermique (%)
+     - 1 Hz
+     - 60
+   * - SE
+     - Rendement global (%)
+     - 1 Hz
+     - 60
 
 Objectifs du Projet
 -------------------
