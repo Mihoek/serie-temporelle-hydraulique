@@ -65,4 +65,4 @@ Objectifs du Projet
 4. Détecter les anomalies potentielles dans les données.
 
 .. note::
-   Une démonstration visuelle de l’application Streamlit est disponible dans la vidéo :download:`streamlit_demo.mp4 <_static/streamlit_demo.mp4>`. Consultez la section :ref:`premiers-pas` pour lancer l’application et explorer ses fonctionnalités.
+   Une démonstration visuelle de l’application Streamlit est disponible dans la vidéo :download:`streamlit_demo.webm <_static/streamlit_demo.webm>`. Consultez la section :ref:`premiers-pas` pour lancer l’application et explorer ses fonctionnalités.
