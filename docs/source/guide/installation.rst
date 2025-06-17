@@ -87,4 +87,4 @@ Si aucune erreur n’apparaît, l’installation est correcte. Sinon, vérifiez 
 - Que Python 3.13+ est utilisé (`python --version`).
 
 .. note::
-   Une démonstration de l’application est disponible dans la vidéo :download:`streamlit_demo.webm <_static/streamlit_demo.webm>`, située dans le dossier `Demo` du dépôt GitHub. Consultez la section :ref:`premiers-pas` pour lancer l’application.
+   Une démonstration de l’application est disponible dans la vidéo :download:`streamlit_demo.mp4 <_static/streamlit_demo.mp4>`, située dans le dossier `Demo` du dépôt GitHub. Consultez la section :ref:`premiers-pas` pour lancer l’application.

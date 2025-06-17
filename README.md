@@ -47,7 +47,6 @@ pip install -r requirements.txt
 
 Téléchargez les données et modèles depuis Google Drive (voir Documentation pour les liens).
 
-(Optionnel) Placez la capture vidéo de démonstration (streamlit_demo.mp4) dans docs/source/_static/media/ pour la documentation.
 
 
 Utilisation
@@ -87,4 +86,4 @@ Veuillez respecter les conventions de codage et ajouter des tests si possible.
 Contact
 Pour toute question ou suggestion, contactez Mihoek ou ouvrez une issue sur le dépôt GitHub.
 
-Dernière mise à jour : 13 juin 2025
+
